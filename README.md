@@ -1,43 +1,72 @@
-Fitness Fatigue Tracker Project
-📚 Overview
-This project analyzes fitness tracker data to study the relationships between daily activity, sleep, heart rate variability (HRV), and recovery metrics.
-It applies exploratory data analysis (EDA) and predictive modeling techniques to uncover how lifestyle factors affect recovery and performance over time.
+# 🏋️‍♂️ Fitness Fatigue Tracker
 
-🎯 Goals
-Perform time series analysis on wearable fitness data (Steps, Sleep, HRV, Calories Burned).
+A data-driven self-tracking case study to monitor fatigue, recovery, and performance using wearable sensor data.
 
-Identify correlations between physical activity, sleep patterns, and recovery trends.
+---
 
-Build a machine learning model to classify low vs. optimal recovery days.
+## 📚 Overview
 
-Use explainable AI (SHAP) to understand the most important features influencing recovery.
+This project analyzes fitness tracker data to study the relationships between daily activity, sleep, heart rate variability (HRV), and recovery metrics. It combines time series analysis, exploratory data analysis (EDA), and predictive modeling to uncover how lifestyle factors impact recovery and performance over time.
 
-🗂 Project Structure
+---
 
+## 🎯 Objectives
+
+- 📊 Perform time series analysis on wearable fitness data (steps, sleep, HRV, calories burned)
+- 🔍 Identify patterns and correlations between physical activity, sleep habits, and recovery trends
+- 🤖 Build a classification model to predict low vs. optimal recovery days
+- 🧠 Apply SHAP for explainable AI to interpret key features driving model predictions
+
+---
+
+## 🗂 Project Structure
+```
 fitness-fatigue-tracker/
-├── data/
-│   └── raw/
-│       └── fitness_tracker_data_sample.csv
+├── data
 ├── notebooks/
-│   └── 01_eda.ipynb
 ├── src/
-│   ├── preprocessing.py
-│   ├── modeling.py
-│   └── visualization.py
 ├── outputs/
-│   ├── charts/
-│   └── summary.pdf
 ├── README.md
 └── requirements.txt
-🛠 Tools & Technologies
-Python (pandas, matplotlib, seaborn, scikit-learn)
+```
+---
 
-Jupyter Notebook
+## 🛠️ Tools & Technologies
 
-SHAP for model explainability
+- **Languages & Libraries:** Python, pandas, matplotlib, seaborn, scikit-learn, SHAP
+- **IDE:** Jupyter Notebook
+- **Version Control:** Git, GitHub
 
-Git & GitHub for version control
+---
 
-👨‍💻 Author
-Aalap Desai
+## 🚀 How to Run
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/desaiaalap/fitness-fatigue-tracker.git
+   cd fitness-fatigue-tracker
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run notebooks and scripts inside the `notebooks/` and `src/` folders.
+
+---
+## 🧠 Learnings & Next Steps
+
+- Gained insights into the impact of daily habits on physiological recovery.
+- Applied interpretable machine learning using SHAP values.
+
+**Next steps:**
+- Expand to include multiple subjects  
+- Deploy an interactive dashboard for daily monitoring
+
+---
+
+## 👤 Author
+
+**Aalap Desai**  
+📧 [desai.aal@northeastern.edu](mailto:desai.aal@northeastern.edu)  
+🔗 [GitHub](https://github.com/desaiaalap) | [LinkedIn](https://www.linkedin.com/in/aalap-desai/)
